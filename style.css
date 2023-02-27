@@ -1,0 +1,198 @@
+body{
+    font-family: ubuntu mono;
+}
+
+#container{
+    display : flex;
+    width : 1000px;
+    height : 700px;
+    border : 10px solid #273B4D; 
+    margin : 0px auto;
+    background-color: green;
+    
+    
+    
+}
+
+#pokemon-info{
+
+    width : 75%;
+    height : 700px;
+    background-color : #EFE7D0;
+    text-align : center;
+    
+    
+    
+}
+ 
+#pokemon-list{
+    width: 25%;
+    height : 700px; 
+    /*background-color : grey;*/
+    background-image : url("pokemon-legends-arceus-wildarea.png");
+    background-position:bottom right;
+    overflow-y:auto;
+}
+
+.pokemon-name{
+    border : none;
+    background-color : white;
+    opacity: 0.7;
+    border-radius : 50px 0 0 50px;
+    margin : 5px;
+    padding : 20px;
+}
+
+#pokemon-info img{
+    width : 300px;
+    height : 300px;
+    border : 10px solid #F1EDE5;
+    border-radius : 10px;
+    margin-top : 10%;
+    background-color : white;
+
+
+}
+
+#pokemon-types{
+    margin-top: 20px;
+    margin-left:45%
+}
+
+.type-box{
+    margin : 5px;
+    border : 1px solid black;
+    border-radius : 10px;
+    padding : 3px;
+}
+
+.normal{
+    background-color: beige;
+    color: black;
+}
+
+.fire{
+    background-color: orange;
+    color: white;
+}
+
+.grass{
+    background-color: green;
+    color: white;
+}
+
+.water{
+    background-color: blue;
+    color: white;
+}
+
+.ice{
+    background-color: lightblue;
+    color: white;
+}
+
+.electric{
+    background-color: gold;
+    color: black;
+}
+
+.fighting{
+    background-color: darkred;
+    color: white;
+}
+
+.flying{
+    background-color: skyblue;
+    color: black;
+}
+
+.bug{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost{
+    background-color: purple;
+    color: white;
+}
+
+.rock{
+    background-color: sienna;
+    color: white;
+}
+
+.ground{
+    background-color: burlywood;
+    color: black;
+}
+
+.steel{
+    background-color: silver;
+    color: black;
+}
+
+.dark{
+    background-color: darkgray;
+    color: white; 
+}
+
+.psychic{
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy{
+    background-color: pink;
+    color: black;
+}
+
+.dragon{
+    background-color: teal;
+    color: white;
+}
+
+.poison{
+    background-color: darkviolet;
+    color: white;
+}
+
+#pokemon-desc{
+    width: 50%;
+    height: 100px;
+    background-color: #F2EFDB;
+    border: 3px solid #E0DAC8;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+.name-box{
+    background-color:#273B4D;
+    border-radius: 50px 0 50px 0;
+    width:90%;
+    margin:15px auto;
+    height: 5%;
+    padding: 20px 10px;
+    display:flex;
+    
+}
+#what-pokemon{
+    color: #E7F5F5;
+    font-size: 30px;
+    padding-left:50px;
+    text-transform: capitalize;
+    
+
+    
+}
+.pokemon-name:hover{
+    background-color:#273B4D;
+    color:#E7F5F5;
+}
+.pokemon-name:active{
+    opacity: 1;
+}
